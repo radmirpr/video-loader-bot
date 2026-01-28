@@ -1,0 +1,103 @@
+[debug] Command-line config: ['--verbose', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', '--referer', 'https://www.youtube.com/', '-f', 'bestvideo[ext=mp4][height<=720]+bestaudio[ext=m4a]/best[ext=mp4][height<=720]', '--max-filesize', '45m', '-o', '/app/downloads/video_1769628312412.mp4', '--no-playlist', 'https://www.youtube.com/shorts/9bZkp7q19f0', '--cookies', '/app/downloads/cookies.txt']
+[debug] Encodings: locale UTF-8, fs utf-8, pref UTF-8, out utf-8 (No ANSI), error utf-8 (No ANSI), screen utf-8 (No ANSI)
+[debug] yt-dlp version stable@2025.12.08 from yt-dlp/yt-dlp [7a52ff29d] (pip)
+[debug] Python 3.12.12 (CPython x86_64 64bit) - Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with (OpenSSL 3.5.5 27 Jan 2026)
+[debug] exe versions: ffmpeg 6.1.2 (setts), ffprobe 6.1.2
+[debug] Optional libraries: sqlite3-3.49.2
+[debug] JS runtimes: none
+[debug] Proxy map: {'no': '*'}
+[debug] Request Handlers: urllib
+[debug] Plugin directories: none
+[debug] Loaded 1854 extractors
+[debug] [youtube] Found YouTube account cookies
+[debug] [youtube] [pot] PO Token Providers: none
+[debug] [youtube] [pot] PO Token Cache Providers: memory
+[debug] [youtube] [pot] PO Token Cache Spec Providers: webpo
+[debug] [youtube] [jsc] JS Challenge Providers: bun (unavailable), deno (unavailable), node (unavailable), quickjs (unavailable)
+[youtube] Extracting URL: https://www.youtube.com/shorts/9bZkp7q19f0
+[youtube] 9bZkp7q19f0: Downloading webpage
+WARNING: [youtube] The provided YouTube account cookies are no longer valid. They have likely been rotated in the browser as a security measure. For tips on how to effectively export YouTube cookies, refer to  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies .
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[debug] [youtube] Forcing "main" player JS variant for player afc53320
+        original url = /s/player/afc53320/player_es6.vflset/en_US/base.js
+[youtube] 9bZkp7q19f0: Downloading android sdkless player API JSON
+WARNING: [youtube] The provided YouTube account cookies are no longer valid. They have likely been rotated in the browser as a security measure. For tips on how to effectively export YouTube cookies, refer to  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies .
+[youtube] 9bZkp7q19f0: Downloading web safari player API JSON
+WARNING: [youtube] The provided YouTube account cookies are no longer valid. They have likely been rotated in the browser as a security measure. For tips on how to effectively export YouTube cookies, refer to  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies .
+[debug] [youtube] 9bZkp7q19f0: Detected a 15s ad skippable after 5s for web_safari
+[debug] [youtube] 9bZkp7q19f0: Detected a 15s ad skippable after 5s for web
+[debug] [youtube] 9bZkp7q19f0: Detected a 15s ad skippable after 5s for web
+WARNING: [youtube] 9bZkp7q19f0: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[youtube] 9bZkp7q19f0: Downloading m3u8 information
+WARNING: [youtube] The provided YouTube account cookies are no longer valid. They have likely been rotated in the browser as a security measure. For tips on how to effectively export YouTube cookies, refer to  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies .
+[debug] [youtube] 9bZkp7q19f0: Detected experiment to bind GVS PO Token to video id.
+WARNING: [youtube] 9bZkp7q19f0: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details
+[debug] Sort order given by extractor: quality, res, fps, hdr:12, source, vcodec, channels, acodec, lang, proto
+[debug] Formats sorted by: hasvid, ie_pref, quality, res, fps, hdr:12(7), source, vcodec, channels, acodec, lang, proto, size, br, asr, vext, aext, hasaud, id
+[info] 9bZkp7q19f0: Downloading 1 format(s): 398+140
+[debug] Invoking http downloader on "https://rr1---sn-5uaeznls.googlevideo.com/videoplayback?expire=1769649917&ei=nWJ6aZ6tHYaa0_wP6vrEqQ0&ip=165.231.150.11&id=o-AG1p0OmPIliFBnsTSIk1tOC_j9h5lCrpb8rrW67RRQMz&itag=398&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1769628317%2C&mh=hJ&mm=31%2C26&mn=sn-5uaeznls%2Csn-p5qlsn6z&ms=au%2Conr&mv=m&mvi=1&pl=24&rms=au%2Cau&initcwndbps=4456250&bui=AW-iu_ps9eZuVrz7ED8N-PZs2ef-1vbBuvZuQnQgpvY5mObw1UKp1GPe9E72b6wxrgjMOzKbHq3jwPlT&spc=q5xjPEDNxtUd&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=29841781&dur=252.168&lmt=1712653924807764&mt=1769627352&fvip=3&keepalive=yes&fexp=51552689%2C51565115%2C51565682%2C51580968&c=ANDROID&txp=4537434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJEij0EwRQIgK7IrfZCk5ij2SHDtODv3L3m0o41VCBPgW7PjZekOz6ACIQChGxsf8Nd_757nU-ImMdR-nEue2O6n02RJLj1wSssrwg%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhAINUy8Nwd3kZydM4aT9xlmiNP53F0D94vxPpRgoQ4HuPAiAfbBePn8ZrG9X2CoghgUiQS7UshnWA2X0599BNKXeV6A%3D%3D"
+[download] Destination: /app/downloads/video_1769628312412.f398.mp4
+
+[download]   0.0% of   28.46MiB at   16.92KiB/s ETA 28:42
+[download]   0.0% of   28.46MiB at   50.17KiB/s ETA 09:40
+[download]   0.0% of   28.46MiB at  114.40KiB/s ETA 04:14
+[download]   0.1% of   28.46MiB at  241.32KiB/s ETA 02:00
+[download]   0.1% of   28.46MiB at  170.50KiB/s ETA 02:50
+[download]   0.2% of   28.46MiB at  212.34KiB/s ETA 02:16
+[download]   0.4% of   28.46MiB at  284.93KiB/s ETA 01:41
+[download]   0.9% of   28.46MiB at  396.25KiB/s ETA 01:12
+[download]   1.8% of   28.46MiB at  553.86KiB/s ETA 00:51
+[download]   3.5% of   28.46MiB at  895.31KiB/s ETA 00:31
+[download]   7.0% of   28.46MiB at    1.46MiB/s ETA 00:18
+[download]  14.1% of   28.46MiB at    2.29MiB/s ETA 00:10
+[download]  28.1% of   28.46MiB at    2.78MiB/s ETA 00:07
+[download]  33.5% of   28.46MiB at    3.10MiB/s ETA 00:06
+[download]  33.5% of   28.46MiB at   17.36KiB/s ETA 18:37
+[download]  33.5% of   28.46MiB at   51.38KiB/s ETA 06:17
+[download]  33.5% of   28.46MiB at  118.07KiB/s ETA 02:44
+[download]  33.5% of   28.46MiB at  247.98KiB/s ETA 01:18
+[download]  33.6% of   28.46MiB at  164.85KiB/s ETA 01:57
+[download]  33.7% of   28.46MiB at  195.19KiB/s ETA 01:39
+[download]  33.9% of   28.46MiB at  274.55KiB/s ETA 01:10
+[download]  34.3% of   28.46MiB at  400.11KiB/s ETA 00:47
+[download]  35.2% of   28.46MiB at  550.02KiB/s ETA 00:34
+[download]  37.0% of   28.46MiB at  771.68KiB/s ETA 00:23
+[download]  40.5% of   28.46MiB at    1.03MiB/s ETA 00:16
+[download]  46.2% of   28.46MiB at    1.54MiB/s ETA 00:09
+[download]  57.7% of   28.46MiB at    2.08MiB/s ETA 00:05
+[download]  68.1% of   28.46MiB at    2.67MiB/s ETA 00:03
+[download]  68.1% of   28.46MiB at   17.07KiB/s ETA 09:04
+[download]  68.1% of   28.46MiB at   50.54KiB/s ETA 03:03
+[download]  68.2% of   28.46MiB at  115.86KiB/s ETA 01:20
+[download]  68.2% of   28.46MiB at  242.07KiB/s ETA 00:38
+[download]  68.2% of   28.46MiB at  164.41KiB/s ETA 00:56
+[download]  68.4% of   28.46MiB at  206.28KiB/s ETA 00:44
+[download]  68.6% of   28.46MiB at  286.68KiB/s ETA 00:31
+[download]  69.0% of   28.46MiB at  417.78KiB/s ETA 00:21
+[download]  69.9% of   28.46MiB at  551.75KiB/s ETA 00:15
+[download]  71.6% of   28.46MiB at  913.21KiB/s ETA 00:09
+[download]  75.2% of   28.46MiB at    1.53MiB/s ETA 00:04
+[download]  82.2% of   28.46MiB at    1.81MiB/s ETA 00:02
+[download]  89.9% of   28.46MiB at    2.30MiB/s ETA 00:01
+[download] 100.0% of   28.46MiB at    3.03MiB/s ETA 00:00
+[download] 100% of   28.46MiB in 00:00:12 at 2.30MiB/s   
+[debug] Invoking http downloader on "https://rr1---sn-5uaeznls.googlevideo.com/videoplayback?expire=1769649917&ei=nWJ6aZ6tHYaa0_wP6vrEqQ0&ip=165.231.150.11&id=o-AG1p0OmPIliFBnsTSIk1tOC_j9h5lCrpb8rrW67RRQMz&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1769628317%2C&mh=hJ&mm=31%2C26&mn=sn-5uaeznls%2Csn-p5qlsn6z&ms=au%2Conr&mv=m&mvi=1&pl=24&rms=au%2Cau&initcwndbps=4456250&bui=AW-iu_ps9eZuVrz7ED8N-PZs2ef-1vbBuvZuQnQgpvY5mObw1UKp1GPe9E72b6wxrgjMOzKbHq3jwPlT&spc=q5xjPEDNxtUd&vprv=1&svpuc=1&mime=audio%2Fmp4&rqh=1&gir=yes&clen=4083640&dur=252.261&lmt=1712653867474717&mt=1769627352&fvip=3&keepalive=yes&fexp=51552689%2C51565115%2C51565682%2C51580968&c=ANDROID&txp=4532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJEij0EwRAIgf-uVjYiYZJpAg0RIlNLKgdXgiKYyWNDcwj9hODqzQCMCIDed2xj4WtGz5DVOH0jCTW6QoOCtAMrAr5fB1dmIMpxZ&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhAINUy8Nwd3kZydM4aT9xlmiNP53F0D94vxPpRgoQ4HuPAiAfbBePn8ZrG9X2CoghgUiQS7UshnWA2X0599BNKXeV6A%3D%3D"
+[download] Destination: /app/downloads/video_1769628312412.f140.m4a
+
+[download]   0.0% of    3.89MiB at   14.80KiB/s ETA 04:29
+[download]   0.1% of    3.89MiB at   44.09KiB/s ETA 01:30
+[download]   0.2% of    3.89MiB at  101.74KiB/s ETA 00:39
+[download]   0.4% of    3.89MiB at  214.82KiB/s ETA 00:18
+[download]   0.8% of    3.89MiB at  169.99KiB/s ETA 00:23
+[download]   1.6% of    3.89MiB at  209.78KiB/s ETA 00:18
+[download]   3.2% of    3.89MiB at  284.92KiB/s ETA 00:13
+[download]   6.4% of    3.89MiB at  414.60KiB/s ETA 00:09
+[download]  12.8% of    3.89MiB at  562.63KiB/s ETA 00:06
+[download]  25.7% of    3.89MiB at  908.78KiB/s ETA 00:03
+[download]  51.3% of    3.89MiB at    1.49MiB/s ETA 00:01
+[download] 100.0% of    3.89MiB at    1.93MiB/s ETA 00:00
+[download] 100% of    3.89MiB in 00:00:02 at 1.42MiB/s   
+[Merger] Merging formats into "/app/downloads/video_1769628312412.mp4"
+[debug] ffmpeg command line: ffmpeg -y -loglevel repeat+info -i file:/app/downloads/video_1769628312412.f398.mp4 -i file:/app/downloads/video_1769628312412.f140.m4a -c copy -map 0:v:0 -map 1:a:0 -movflags +faststart file:/app/downloads/video_1769628312412.temp.mp4
+Deleting original file /app/downloads/video_1769628312412.f398.mp4 (pass -k to keep)
+Deleting original file /app/downloads/video_1769628312412.f140.m4a (pass -k to keep)
