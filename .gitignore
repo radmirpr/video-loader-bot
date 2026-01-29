@@ -10,7 +10,7 @@ target/
 
 # Временные файлы бота
 downloads/*
-!downloads/cookies.txt  # Если шаблон, иначе игнорируйте
+!downloads/cookies.txt
 
 # Логи и скачанные видео
 yt-dlp-log_*.txt
